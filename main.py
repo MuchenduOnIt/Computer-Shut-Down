@@ -5,4 +5,4 @@ shutdown = input("Do you wish to shutdown your computer ? (yes / no): ")
 if shutdown == 'no':
     exit()
 else:
-    os.system("shutdown /s /t 3600")
+    os.system("shutdown /s /t 7200")
